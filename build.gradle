@@ -14,7 +14,7 @@ repositories {
 }
 
 def runeLiteVersion = 'latest.release'
-def pluginMainClass = 'com.evileye.EvilEyeFilterPluginTest'
+def pluginMainClass = 'com.evileye.EvilEyeFilterPlugin'
 
 dependencies {
 	compileOnly group: 'net.runelite', name:'client', version: runeLiteVersion
